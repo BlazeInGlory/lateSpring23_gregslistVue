@@ -21,6 +21,13 @@
             Cars
           </router-link>
         </li>
+        <li>
+          <router-link class="btn text-success lighten-30 selectable text-uppercase" :to="{ name: 'Houses' }">
+      <div class="d-flex flex-column align-items-center">
+        <img alt="" src="" height="45" />Houses
+      </div>
+    </router-link>
+        </li>
       </ul>
       <!-- LOGIN COMPONENT HERE -->
       <Login />
